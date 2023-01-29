@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class InputVector : NeuralNetworkLayers
+    internal class NeuralNetworkLayers
     {
     }
 }

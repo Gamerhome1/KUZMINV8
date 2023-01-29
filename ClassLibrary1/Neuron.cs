@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Neuron
+    public class Neuron : SynapticNode
     {
+        public string NeuralLayer { get; set; }
+        public string ActivationFunction { get; set; }
+        public string ThresholdValue { get; set; }
+        public LayersOfNeurons LayersOfNeurons { get;set; }
     }
 }
