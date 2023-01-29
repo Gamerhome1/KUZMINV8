@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class GaussianFunction
+    public class GaussianFunction : IActivationFunction
     {
+        public Neuron Neuron { get ; set ; }
     }
 }

@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class NeuralNetworkLayers
+    public class NeuralNetworkLayers
     {
+        public SynapticNode SynapticNode { get; set; }
+        public int Elements { get; set; }
+        public string NeuralNetwork { get; set; }
+        public NeuralNetworkLayers() 
+        {
+            SynapticNode = new SynapticNode();   
+        
+        }
+    
     }
 }

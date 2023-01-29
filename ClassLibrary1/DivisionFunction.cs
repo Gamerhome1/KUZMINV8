@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    internal class DivisionFunction
+    public class DivisionFunction : IActivationFunction
     {
+        public Neuron Neuron { get ; set ; }
     }
 }
